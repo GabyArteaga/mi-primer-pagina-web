@@ -1,0 +1,70 @@
+header {
+    background-color: #785589;
+    /* Cambia el color de fondo */
+    color: #E4C3AD;
+    /* Cambia el color de texto #fff; es blanco*/
+    position: fixed; /* position: sticky; lo deja fijado arriba */
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    /* Asegura que la barra esté por encima de otros elementos */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 20px;
+    /* Ajusta el espacio entre elementos según tus preferencias */
+}
+
+nav a {
+    text-decoration: none;
+    color: #FAE1DF;
+    /* Cambia el color de enlace */
+    font-weight: bold;
+}
+/* Agrega un margen superior al contenido principal */
+main {
+    margin-top: 80px; /* Ajusta esta cantidad según la altura de tu barra de navegación */
+  }
+
+body {
+    background: linear-gradient(to bottom, #F4F1BB, #D8F6FE);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.color {
+    color: #008F8F
+}
+
+.color1 {
+    color: #ED6A5A
+}
+
+.color2 {
+    color: #2D232E
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
