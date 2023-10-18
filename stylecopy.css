@@ -1,0 +1,69 @@
+/*El asterísco es selector universal si aplicas algo aquí se va a aplicar a todo el texto*/
+* {
+    
+    font-family: 'Nunito', sans-serif;
+    /*Si escribes 3 font-family se va a aplicar el útimo que escribes*/
+}
+
+body {
+    background: linear-gradient(to bottom, #F4F1BB, #D8F6FE);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+/*Selector de tipo (elemento =etiqueta)*/
+p {
+    background-color: #bbf4bc;
+    text-align: justify;
+}
+
+/*Selector de clase */
+.parrafo_web {
+    background-color: chartreuse;
+}
+
+/* Selector ID*/
+#primer_parrafo {
+    text-align: center;
+    background-color: goldenrod;
+}
+ 
+/*Modifica todos los links que estén en header*/
+header a[href]{
+    border: 10px double #412653;
+}
+/*Si pones header antes de a solo va a modificar ese link cuando esté en la sección header. Además este solo mofifica este link en específico*/
+header a[ href="https://laroussecocina.mx/Categoria/postres/"] {
+    border: 10px double #264653;
+    /*Puedes agregar muchos estilos diferentes border-style*/
+}
+
+img {
+    border-radius: 5%;
+    /*Se puede poner como % o como px*/
+  }
+h3,h1 {
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+
+.color {
+    color: #008F8F
+}
+
+.color1 {
+    color: #ED6A5A
+}
+
+.color2 {
+    color: #2D232E
+}
+
+#caja{
+    width: 350px;
+    height: 150px;
+    margin: 10px;
+    padding: 25px;
+    border: 5px solid white;
+}
